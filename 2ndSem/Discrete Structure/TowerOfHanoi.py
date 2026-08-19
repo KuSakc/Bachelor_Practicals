@@ -6,11 +6,9 @@ class Hanoi:
     def __init__(self, A, B, C):
         self.Tower_A = A
         self.Tower_B = B
-        self.Tower_C = C      
-
+        self.Tower_C = C
 
     getWeight = lambda Tower: Tower[0][1]
-
 
     def judgeCompletion(self):
         if self.Tower_A.count() == 3:
@@ -18,7 +16,7 @@ class Hanoi:
         elif self.Tower_B.count() == 3:
             print("Hanoi Completed in Tower B")
         elif self.Tower_C.count() == 3:
-            print("Hanoi Completed in Tower C")          
+            print("Hanoi Completed in Tower C")
 
 
     def judgeValidity(self, TowerPrev, TowerNew):
