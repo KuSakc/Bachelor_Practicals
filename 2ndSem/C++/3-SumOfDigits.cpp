@@ -2,6 +2,7 @@ int main()
 {
     int num, prev, result{0};
 
+    int i;
     for (i=num; i>0; i/=10)
     {
         prev = i;
