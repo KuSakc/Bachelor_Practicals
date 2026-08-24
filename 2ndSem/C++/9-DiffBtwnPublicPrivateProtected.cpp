@@ -1,3 +1,4 @@
+#include <iostream>
 class Base {
 public:
     int publicVar;
