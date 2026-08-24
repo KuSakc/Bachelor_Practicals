@@ -1,7 +1,8 @@
+#include<iostream>
 int main()
 {
-    int arr = {1, 2, 34, 5, 6};
-    int arr_length = arr.length;
+    int arr[] = {1, 2, 34, 5, 6};
+    int arr_length = sizeof(arr) / sizeof(arr[0]); 
 
     int i, greatest=arr[0];
     for (i=1; i<arr_length; i++)
