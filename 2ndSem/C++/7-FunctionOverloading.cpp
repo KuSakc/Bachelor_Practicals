@@ -1,3 +1,4 @@
+#include<iostream>
 int area(int length, int breadth) {
     return length * breadth;
 }
@@ -23,7 +24,7 @@ int main() {
 
     area_square = area(length);
 
-    std::cout << "Area of square: " << area_square <<endl;
+    std::cout << "Area of square: " << area_square <<std::endl;
 
     return 0;
 }
