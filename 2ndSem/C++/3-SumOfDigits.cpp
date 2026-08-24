@@ -1,12 +1,13 @@
+#include <iostream>
 int main()
 {
-    int num, prev, result{0};
+    int num=123, prev, result{0};
 
     int i;
     for (i=num; i>0; i/=10)
     {
         prev = i;
-        i= (i%10)*10;
+        i= (i/10)*10;
         result += prev - i;
     }
 
