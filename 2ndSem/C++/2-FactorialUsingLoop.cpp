@@ -1,7 +1,9 @@
+#include<iostream>
 int main()
 {
     int factorial_num, result {1};
 
+    std::cout << "Number: ";
     std::cin >> factorial_num ;
 
     int i;
