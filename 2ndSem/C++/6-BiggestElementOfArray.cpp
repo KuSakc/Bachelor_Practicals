@@ -21,6 +21,6 @@ int main()
     int greatest = findGreatest(arr, arr_length);
 
     std::cout << "Greatest Element of array is " << greatest << std::endl;
-
+    std::cout<<"by Sakcsam Parajuli"std::endl;
     return 0;
 }
