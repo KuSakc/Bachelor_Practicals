@@ -46,5 +46,7 @@ int main() {
     std::cout << "Accessing from outside the class"<< std::endl;
     std::cout << " publicVar = " << baseObj.publicVar << std::endl;
 
+    std::cout<<"Author by Sakcsam Parajuli"std::endl;
+    
     return 0;
 }
