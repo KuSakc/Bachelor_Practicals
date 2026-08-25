@@ -21,6 +21,6 @@ int main() {
     area_square = area(length);
 
     std::cout << "Area of square: " << area_square <<std::endl;
-    std::cout<<"Author by Sakcsam Parajuli"std::endl;
+    std::cout<<"by Sakcsam Parajuli"std::endl;
     return 0;
 }
