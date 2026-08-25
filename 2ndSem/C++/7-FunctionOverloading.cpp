@@ -18,8 +18,6 @@ int main() {
 
     std::cout << "Area of rectangle: " << area_rectangle <<std::endl;
 
-    std::cin >> length;
-
     area_square = area(length);
 
     std::cout << "Area of square: " << area_square <<std::endl;
