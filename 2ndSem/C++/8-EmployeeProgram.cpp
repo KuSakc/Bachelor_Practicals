@@ -21,6 +21,7 @@ class Employee
             std::cout << "ID: " << id << std::endl;
             std::cout << "Salary: " << salary << std::endl;
             std::cout << "---" << std::endl;
+            std::cout<<"Author by Sakcsam Parajuli"std::endl;
         }
 };  
 
