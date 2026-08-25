@@ -23,7 +23,7 @@ int main() {
 
     s.display();
 
-    cout << "Author by Sachin Aryal";
+    cout << "by Sakcsam Parajuli";
 
     return 0;
 }
