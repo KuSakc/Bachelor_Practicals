@@ -22,7 +22,7 @@ int main(){
 	cout<<"\nvariable before call by reference:"<<a<<endl;
 	callByReference(b);
 	cout<<"After call by reference:"<<b<<endl;
-	cout<<"Author by Sachin Aryal";
+	cout<<"Author by Sakcsam Parajuli"<<sendl;
 	
 	
 	
